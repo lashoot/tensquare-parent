@@ -1,0 +1,22 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: tensquare-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/aiceng/tensquare_dey84.gitpa
+#  消息总线组件SpringCloudBus
+  rabbitmq:
+    host: 192.168.31.131
+management: #暴露触发消息总线的地址
+  endpoints:
+    web:
+      exposure:
+        include: bus‐refresh
+
+
+
+

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: manager
+      profile: dev
+      label: master #提交到主干
+      uri: http://127.0.0.1:12000

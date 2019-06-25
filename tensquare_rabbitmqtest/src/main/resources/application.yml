@@ -1,0 +1,6 @@
+# 测试不用写 server 端口 但是也可以写  集成必须要写 server host 端口
+spring:
+  rabbitmq:
+    host: 192.168.31.131
+server:
+  port: 8003
